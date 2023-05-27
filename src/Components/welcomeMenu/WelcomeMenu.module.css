@@ -1,0 +1,71 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info > svg {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.text {
+  text-align: center;
+}
+.text > h2 {
+  opacity: 0.6;
+  font-size: 36px;
+  font-weight: 400;
+}
+.text > h1 {
+  font-size: 30px;
+  font-weight: 00;
+  color: #212427;
+  margin-bottom: 15px;
+}
+.text > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #212427;
+  opacity: 0.6;
+  margin-bottom: 15px;
+  margin-bottom: 45px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.demoButton {
+  padding: 20px 50px;
+  border: none;
+  outline: none;
+  background-color: #d8e6fc;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #4285f4;
+  margin-bottom: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.demoButton:hover {
+  background-color: #4285f4;
+  color: #fff;
+}
+.noButton {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #4285f4;
+  cursor: pointer;
+}

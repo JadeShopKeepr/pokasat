@@ -1,0 +1,14 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main {
+  max-width: 1250px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 20px;
+  justify-content: flex-start;
+}
